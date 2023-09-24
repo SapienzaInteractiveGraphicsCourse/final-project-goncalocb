@@ -1022,8 +1022,8 @@ function animate() {
     }
 
     if (gameOn) {
-        spiderPhi -= spiderVel;
-        sbody.rotateX(-spiderVel);
+        spiderPhi += spiderVel;
+        sbody.rotateX(spiderVel);
     }
 
 
